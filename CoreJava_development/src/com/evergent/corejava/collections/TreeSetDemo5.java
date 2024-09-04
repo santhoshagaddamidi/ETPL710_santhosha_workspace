@@ -1,0 +1,17 @@
+package com.evergent.corejava.collections;
+import java.util.TreeSet;
+import java.util.Iterator;
+
+public class TreeSetDemo5 {
+
+	public static void main(String[] args) {
+		TreeSet mySet=new TreeSet();
+		mySet.add(10);
+		mySet.add(100);
+		mySet.add(23);
+		mySet.add(12);
+		System.out.println(mySet);
+
+	}
+
+}
